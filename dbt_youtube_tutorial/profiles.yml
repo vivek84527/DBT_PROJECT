@@ -1,0 +1,19 @@
+dbt_youtube_tutorial:
+  outputs:
+    dev:
+      catalog: dbt_tutorial_dev
+      host: dbc-ed795828-ae34.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/07f270f3b8aa1108
+      schema: default
+      threads: 1
+      token: dapi537092fce8eece0c1f3c76018ee487e6
+      type: databricks
+    prod:
+      catalog: dbt_tutorial_prod
+      host: dbc-ed795828-ae34.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/07f270f3b8aa1108
+      schema: default
+      threads: 1
+      token: dapi537092fce8eece0c1f3c76018ee487e6
+      type: databricks  
+  target: dev
